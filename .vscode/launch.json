@@ -10,7 +10,12 @@
             "request": "launch",
             "program": "main.py",
             "console": "integratedTerminal",
-            "justMyCode": true
+            "justMyCode": true,
+            "env": {
+                "SPOTIFY_CLIENT_ID": "3608a71887084f9cb9014328d2362fc0",
+                "SPOTIFY_CLIENT_SECRET": "fdadd7a792e94eb193839d2e4787271d",
+                "SPOTIFY_REDIRECT_URI": "http://example.com"
+            }
         }
     ]
 }

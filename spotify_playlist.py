@@ -15,8 +15,10 @@ def run():
       scope="playlist-modify-private",
       show_dialog=True,
       cache_path="token.txt",
-      username="Dario", 
+      username="21c2udkjgxynwcj6re46edsny" 
     ))
+  
   results = spotify.current_user()
+  print(results)
   user_id = results["id"]
   print(f"User is: {user_id}")
